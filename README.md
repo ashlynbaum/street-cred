@@ -8,7 +8,7 @@ r9 accelerator
 ### install
 
 ```
-git clone https://github.com/ashlynbaum/streetcred
+git clone https://github.com/ashlynbaum/street-cred
 cd 
 npm install
 ```
