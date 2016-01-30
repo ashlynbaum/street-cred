@@ -10,6 +10,15 @@ body {
   font-size: 16px;
 }
 
+section {
+  margin: 0;
+  padding: 2em 8% 2em 8%;
+}
+
+p {
+  font-size: 18px;
+}
+
 h1 {
   font-family: 'Bangers';
   font-size: 9em;
@@ -21,6 +30,15 @@ h2 {
 }
 h3 {
   font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color:  #16a085;
 }
 
 .italic {
@@ -56,6 +74,11 @@ h3 {
   font-size: 1.5em;
   font-weight: 100;
 }
+
+.title {
+  margin: 0 auto .8em auto
+}
+
 /*************
 Team
 **************/
@@ -65,13 +88,16 @@ Team
   padding: 40px 8%;
 }
 
-.team .title {
-  margin: 0 auto 1.5em auto
+
+
+.team .subtitle {
+  margin-bottom: 3em;
 }
 
 .profile {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .profile img {
@@ -96,10 +122,22 @@ Dictionary
   color: #16a085;
 }
 
-.dictionary .sandwich {
+/*.dictionary .sandwich {
   float: left;
-  position: relative;
+}*/
+
+@media (min-width: 1300px) {
+  .dictionary .sandwich {
+    float: left;
+  }
 }
+@media (min-width: 700px) and (max-width: 1299px) {
+  .dictionry .sandwich {
+    display: none;
+  }
+}
+
+
 
 .dictionary object {
   height: 300px;
@@ -107,4 +145,32 @@ Dictionary
 
 .shitscription{
   text-align: right;
+}
+/*************
+Awesome
+**************/
+.awesome {
+  background-color: #ecf0f1;
+}
+.awesome-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/*************
+less-Awesome
+**************/
+.less-awesome {
+  background-color: #16a085;
+}
+.less-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+/*************
+About
+**************/
+
+.about img {
+  height: 300px;
 }
