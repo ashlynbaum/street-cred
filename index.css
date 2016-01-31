@@ -41,6 +41,10 @@ a:hover {
   color:  #16a085;
 }
 
+.teal {
+  color: #16a085;
+}
+
 .pull-left {
   float: left;
 }
@@ -120,6 +124,14 @@ Team
 .profile-type {
   color: #16a085;
   margin-top: 0;
+  margin-bottom: 0;
+}
+.profile-type a {
+  color: #bdc3c7;
+  padding: 0 .8em;
+}
+.profile-type a:hover {
+  color: #1dd2af;
 }
 
 .team p {
@@ -190,8 +202,9 @@ Awesome
   margin-top: 2.5em;
   margin-bottom: .4em;
   font-size: 1.6em;
-  text-align: justify;
+  text-align: left;
 }
+
 /*************
 less-Awesome
 **************/
@@ -229,28 +242,75 @@ more-Awesome
 .awesome {
   background-color: #ecf0f1;
 }
-.awesome-wrapper {
+.more-awesome-wrapper {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+.more-awesome-wrapper ul{
+  width: 65%;
+  text-align: left;
+  list-style: none;
+}
+.more-awesome-quote {
+  width: 20%;
+  padding-top: 5%;
+}
+
+.more-awesome-quote .text {
+  margin-top: 2.5em;
+  margin-bottom: .4em;
+  font-size: 1.6em;
+  text-align: left;
+}
+/*************
+Survey
+**************/
+.survey {
+  background-color: #16a085;
+  background-image: url('images/food.png');
+  color: #f1c40f;
+}
+
+.survey h3 {
+  font-size: 4em;
+  margin: 0 auto;
+}
+
+.survey a {
+  color: #f1c40f;
+  border-bottom: 6px dotted #95BD87;
+}
+
+.survey a:hover {
+  color: #95BD87;
+}
+
 /*************
 About
 **************/
-
 .about img {
   height: 300px;
+  padding: 3em;
 }
 
 .about {
   background-image: url('images/new_year_background.png')
 }
 
-.about-wrapper {
+/*.about-wrapper {
   display: flex;
-  justify-content: space-between;
-}
+  justify-content: space-around;
+  flex-wrap: wrap;
+}*/
 
 .about-text {
+
   padding-left: 6%;
 }
+
+.about-text h3 {
+  margin-top: 0;
+}
+
