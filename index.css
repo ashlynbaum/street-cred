@@ -296,7 +296,7 @@ About
 }
 
 .about {
-  background-image: url('images/new_year_background.png')
+  background-image: url('images/ignasi_pattern_s.png')
 }
 
 /*.about-wrapper {
@@ -306,7 +306,6 @@ About
 }*/
 
 .about-text {
-
   padding-left: 6%;
 }
 
@@ -314,3 +313,6 @@ About
   margin-top: 0;
 }
 
+.about p, .about h3{
+  text-align: left;
+}
