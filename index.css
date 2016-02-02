@@ -168,7 +168,12 @@ Dictionary
   }
 }
 
-
+/*************
+Sandwich
+**************/
+.dictionary {
+  min-height: 320px
+}
 .dictionary object {
   height: 300px;
 }
@@ -296,7 +301,8 @@ About
 }
 
 .about {
-  background-image: url('images/ignasi_pattern_s.png')
+  background-image: url('images/ignasi_pattern_s.png');
+  padding-bottom: 100px;
 }
 
 /*.about-wrapper {
@@ -306,7 +312,8 @@ About
 }*/
 
 .about-text {
-  padding-left: 6%;
+  margin: 0 auto;
+  max-width: 760px;
 }
 
 .about-text h3 {
@@ -314,5 +321,5 @@ About
 }
 
 .about p, .about h3{
-  text-align: left;
+  text-align: justify;
 }
